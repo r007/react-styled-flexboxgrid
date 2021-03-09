@@ -14,9 +14,9 @@ export const BASE_CONF = {
   },
   breakpoints: {
     xs: 0,
-    sm: 48,
-    md: 64,
-    lg: 75
+    sm: 576,
+    md: 768,
+    lg: 992
   }
 }
 
@@ -43,7 +43,7 @@ const resolveConfig = props => {
     media[breakpoint] = makeMedia(
       [
         conf.mediaQuery,
-        breakpoint !== 0 && `(min-width: ${breakpointWidth}em)`
+        breakpoint !== 0 && `(min-width: ${breakpointWidth}px)`
       ]
         .filter(Boolean)
         .join(' and ')
