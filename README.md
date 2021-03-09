@@ -5,6 +5,7 @@
 [![NPM Status](http://img.shields.io/npm/dm/react-styled-flexboxgrid.svg?style=flat-square)](https://www.npmjs.org/package/react-styled-flexboxgrid)
 [![js-standard-style](https://img.shields.io/badge/lint-standard-green.svg)](http://standardjs.com)
 
+This is fork of the official repository with pixels used as values for @media queries instead of ems.
 
 Set of React components that implement [`flexboxgrid.css`](https://github.com/kristoferjoseph/flexboxgrid) but with [`styled-components`](https://github.com/styled-components/styled-components)/[`emotion`](https://github.com/emotion-js/emotion). Furthermore, it allows to customize grid configuration like gutter width...
 
