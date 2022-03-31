@@ -24,7 +24,7 @@ module.exports = {
             replacement: 'react-emotion'
           }
         ],
-        'emotion'
+        '@emotion'
       ]
     }
   }
